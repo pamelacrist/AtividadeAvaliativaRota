@@ -17,7 +17,7 @@ jobs:
         
     - name: Instalar Horusec
       run: |
-        curl -fsSL https://install.horusec.io/install.sh | bash
+        curl -fsSL https://horusec.io/bin/install.sh | bash -s latest
 
     - name: Configurar Horusec
       run: |
