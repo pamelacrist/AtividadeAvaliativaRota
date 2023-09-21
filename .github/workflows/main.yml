@@ -22,5 +22,5 @@ jobs:
     
     - name: Run Roslyn Analyzers
       run: |
-        cd ./RotasCaminhao
-        dotnet build --configuration Release --no-restore
+        cd .\RotasCaminhao
+        dotnet build .\RotasCaminhao.csproj
