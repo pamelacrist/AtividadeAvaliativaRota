@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   horusec:
     runs-on: ubuntu-latest
@@ -16,10 +17,6 @@ jobs:
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
 
-   # - name: Configurar Horusec
-   #   run: |
-   #     echo -e '{"horusecAuth": {"horusecAPIUri": "https://api.horusec.io", "horusecAPIKey": "${{ secrets.HORUSEC_TOKEN }}"}}' > horusec-config.json
-
     - name: Executar análise de segurança
       run: |
-        horusec start -p ./RotasCaminhao -e="true" #--config-file horusec-config.json --output-format table
+        horusec start -p ./RotasCaminhao -e="true"
