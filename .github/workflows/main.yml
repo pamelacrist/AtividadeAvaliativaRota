@@ -19,7 +19,11 @@ jobs:
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/master/deployments/scripts/install.sh | bash -s latest-beta
         horusec start -p="./" -e="true"
-    
+    - name: Install dependencies
+      run: |
+        cd RotasCaminhao
+        dotnet restore
+      
     - name: Run Roslyn Analyzers
       run: |
         cd RotasCaminhao
