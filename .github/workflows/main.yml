@@ -30,7 +30,7 @@ jobs:
         dotnet build RotasCaminhao.csproj
 
     - name: Install .NET Analyzers
-      run: dotnet tool install -g dotnet-analyze
+      run: dotnet test RotasCaminhao.csproj
   
     - name: Verificação com os NetAnalyzers
       run: |
