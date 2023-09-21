@@ -26,4 +26,6 @@ jobs:
         dotnet build RotasCaminhao.csproj
         
     - name: Verificação com os NetAnalyzers
-      run: dotnet analyze RotasCaminhao.csproj
+      run: |
+        cd RotasCaminhao
+        dotnet analyze RotasCaminhao.csproj
