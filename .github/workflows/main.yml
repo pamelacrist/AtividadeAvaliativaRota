@@ -19,16 +19,10 @@ jobs:
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
 
-    - name: Configurar Horusec
-      run: |
-        echo -e '{"horusecAuth": {"horusecAPIUri": "https://api.horusec.io", "horusecAPIKey": "${{ secrets.HORUSEC_TOKEN }}"}}' > horusec-config.json
+   # - name: Configurar Horusec
+   #   run: |
+   #     echo -e '{"horusecAuth": {"horusecAPIUri": "https://api.horusec.io", "horusecAPIKey": "${{ secrets.HORUSEC_TOKEN }}"}}' > horusec-config.json
 
-    - name: Debug PATH
-      run: |
-        echo $PATH
-    - name: Listar Conteúdo do Diretório
-      run: |
-        ls -l
     - name: Executar análise de segurança
       run: |
-        horusec start -p ./RotasCaminhao --config-file horusec-config.json --output-format table
+        horusec start -p ./RotasCaminhao #--config-file horusec-config.json --output-format table
