@@ -27,12 +27,7 @@ jobs:
     - name: Run Roslyn Analyzers
       run: |
         cd RotasCaminhao
-        dotnet build RotasCaminhao.csproj
+        dotnet build RotasCaminhao.csproj /p:RunAnalyzersDuringBuild=true
 
     - name: Install .NET Analyzers
       run: dotnet test RotasCaminhao.csproj
-  
-    - name: Verificação com os NetAnalyzers
-      run: |
-        cd RotasCaminhao
-        dotnet analyze RotasCaminhao.csproj
