@@ -30,4 +30,6 @@ jobs:
         dotnet build RotasCaminhao.csproj /p:RunAnalyzersDuringBuild=true
 
     - name: Install .NET Analyzers
-      run: dotnet test RotasCaminhao.csproj
+      run: |
+        cd RotasCaminhao
+        dotnet test RotasCaminhao.csproj
