@@ -13,9 +13,7 @@ jobs:
     - name: Checkout código-fonte
       uses: actions/checkout@v2
 
-    - name: Debug PATH
-      run: |
-        echo $PATH
+   
         
     - name: Instalar Horusec
       run: |
@@ -25,6 +23,12 @@ jobs:
       run: |
         echo -e '{"horusecAuth": {"horusecAPIUri": "https://api.horusec.io", "horusecAPIKey": "${{ secrets.HORUSEC_TOKEN }}"}}' > horusec-config.json
 
+    - name: Debug PATH
+      run: |
+        echo $PATH
+    - name: Listar Conteúdo do Diretório
+      run: |
+        ls -l
     - name: Executar análise de segurança
       run: |
         horusec start -p ./RotasCaminhao --config-file horusec-config.json --output-format table
