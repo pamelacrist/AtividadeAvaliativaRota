@@ -1,4 +1,4 @@
-name: Horusec Scan
+name: Horusec
 
 on:
   push:
@@ -6,18 +6,21 @@ on:
       - main
 
 jobs:
-  horusec:
+  horusec-security:
+    name: horusec-security
     runs-on: ubuntu-latest
-
     steps:
-        
-    - name: Checkout código-fonte
+    - name: Check out code
       uses: actions/checkout@v2
-      
-    - name: Instalar Horusec
+      with: # Necessário quando habilitado o autores de commit
+        fetch-depth: 0
+    
+    - name: Configuração e teste Horusec Security
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/master/deployments/scripts/install.sh | bash -s latest-beta
+        horusec start -p="./" -e="true"
     
-    - name: Executar análise de segurança
+    - name: Run Roslyn Analyzers
       run: |
-        horusec start -p ./RotasCaminhao -e="true"
+        cd ./RotasCaminhao
+        dotnet build --configuration Release --no-restore
