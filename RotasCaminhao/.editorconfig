@@ -1,0 +1,26 @@
+# Arquivo .editorconfig
+
+# Indentação usando espaços (4 espaços por nível de recuo)
+[*]
+indent_style = space
+indent_size = 4
+
+# Quebra de linha no estilo LF (Unix)
+[*]
+end_of_line = lf
+
+# Codificação UTF-8 sem BOM
+[*]
+charset = utf-8
+
+# Remover espaços em branco no final das linhas
+[*]
+trim_trailing_whitespace = true
+
+# Final vazio após o arquivo
+[*]
+insert_final_newline = true
+
+# Estilo de quebra de linha recomendado
+[*.{cs,csproj}]
+insert_final_newline = true

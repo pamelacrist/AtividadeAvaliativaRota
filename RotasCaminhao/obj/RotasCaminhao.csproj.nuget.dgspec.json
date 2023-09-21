@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pamel\\Downloads\\RotasCaminhaoAvaliacao2\\RotasCaminhao\\RotasCaminhao.csproj": {}
+    "C:\\Users\\Pâmela Cristina\\Documents\\GitHub\\AtividadeAvaliativaRota\\RotasCaminhao\\RotasCaminhao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pamel\\Downloads\\RotasCaminhaoAvaliacao2\\RotasCaminhao\\RotasCaminhao.csproj": {
+    "C:\\Users\\Pâmela Cristina\\Documents\\GitHub\\AtividadeAvaliativaRota\\RotasCaminhao\\RotasCaminhao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pamel\\Downloads\\RotasCaminhaoAvaliacao2\\RotasCaminhao\\RotasCaminhao.csproj",
+        "projectUniqueName": "C:\\Users\\Pâmela Cristina\\Documents\\GitHub\\AtividadeAvaliativaRota\\RotasCaminhao\\RotasCaminhao.csproj",
         "projectName": "RotasCaminhao",
-        "projectPath": "C:\\Users\\pamel\\Downloads\\RotasCaminhaoAvaliacao2\\RotasCaminhao\\RotasCaminhao.csproj",
-        "packagesPath": "C:\\Users\\pamel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pamel\\Downloads\\RotasCaminhaoAvaliacao2\\RotasCaminhao\\obj\\",
+        "projectPath": "C:\\Users\\Pâmela Cristina\\Documents\\GitHub\\AtividadeAvaliativaRota\\RotasCaminhao\\RotasCaminhao.csproj",
+        "packagesPath": "C:\\Users\\Pâmela Cristina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pâmela Cristina\\Documents\\GitHub\\AtividadeAvaliativaRota\\RotasCaminhao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pamel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pâmela Cristina\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,6 +37,13 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\pamel\\AppData\\Roaming\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -28,3 +28,17 @@ C:\Users\pamel\Downloads\RotasCaminhaoAvaliacao2\RotasCaminhao\obj\Debug\net7.0\
 C:\Users\pamel\Downloads\RotasCaminhaoAvaliacao2\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.pdb
 C:\Users\pamel\Downloads\RotasCaminhaoAvaliacao2\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.genruntimeconfig.cache
 C:\Users\pamel\Downloads\RotasCaminhaoAvaliacao2\RotasCaminhao\obj\Debug\net7.0\ref\RotasCaminhao.dll
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\bin\Debug\net7.0\RotasCaminhao.exe
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\bin\Debug\net7.0\RotasCaminhao.deps.json
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\bin\Debug\net7.0\RotasCaminhao.runtimeconfig.json
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\bin\Debug\net7.0\RotasCaminhao.dll
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\bin\Debug\net7.0\RotasCaminhao.pdb
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.AssemblyInfoInputs.cache
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.AssemblyInfo.cs
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.csproj.CoreCompileInputs.cache
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.dll
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\refint\RotasCaminhao.dll
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.pdb
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\RotasCaminhao.genruntimeconfig.cache
+C:\Users\Pâmela Cristina\Documents\GitHub\AtividadeAvaliativaRota\RotasCaminhao\obj\Debug\net7.0\ref\RotasCaminhao.dll

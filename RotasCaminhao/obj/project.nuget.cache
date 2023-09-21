@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/7Vi/fQNDAb8aO4V6LV6UtNmAHRFPVzEyZjJj6HfpRWKTWR8dRuHiNWZYR3cQIUp3fE17DP7UcC2wyXLoT6cPQ==",
+  "dgSpecHash": "NxpjE362KP1KKOd6J7THmXKtR0sJJ83JepWVhtp5yhyh2s/s9kveHoXXX0IwASWlyhU0CdQhoiFdtBv3BR57YA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pamel\\Downloads\\RotasCaminhaoAvaliacao2\\RotasCaminhao\\RotasCaminhao.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Pâmela Cristina\\Documents\\GitHub\\AtividadeAvaliativaRota\\RotasCaminhao\\RotasCaminhao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pâmela Cristina\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\7.0.0\\microsoft.codeanalysis.netanalyzers.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
