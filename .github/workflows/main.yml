@@ -10,18 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Instalar Docker
-      run: |
-        curl -fsSL https://get.docker.com | sh
-        sudo usermod -aG docker $USER
-        sudo service docker start
         
     - name: Checkout código-fonte
       uses: actions/checkout@v2
       
     - name: Instalar Horusec
       run: |
-        curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
+        curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/master/deployments/scripts/install.sh | bash -s latest-beta
     
     - name: Executar análise de segurança
       run: |
