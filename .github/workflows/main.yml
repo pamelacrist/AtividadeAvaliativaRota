@@ -13,9 +13,12 @@ jobs:
     - name: Checkout código-fonte
       uses: actions/checkout@v2
 
-    - name: Configurar Horusec
+    - name: Instalar Horusec
       run: |
         curl -fsSL https://install.horusec.io/install.sh | bash
+
+    - name: Configurar Horusec
+      run: |
         echo -e '{"horusecAuth": {"horusecAPIUri": "https://api.horusec.io", "horusecAPIKey": "${{ secrets.HORUSEC_TOKEN }}"}}' > horusec-config.json
 
     - name: Executar análise de segurança
