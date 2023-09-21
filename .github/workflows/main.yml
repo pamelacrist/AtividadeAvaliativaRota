@@ -25,4 +25,4 @@ jobs:
     
     - name: Executar análise de segurança
       run: |
-        horusec start -p ./RotasCaminhao -e="true"
+        horusec start -p ./RotasCaminhao -e "true"
