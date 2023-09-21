@@ -3,8 +3,7 @@ name: Horusec Scan
 on:
   push:
     branches:
-      - main # Defina a branch de destino aqui
-
+      - main
 jobs:
   horusec:
     runs-on: ubuntu-latest
@@ -12,8 +11,6 @@ jobs:
     steps:
     - name: Checkout código-fonte
       uses: actions/checkout@v2
-
-   
         
     - name: Instalar Horusec
       run: |
@@ -25,4 +22,4 @@ jobs:
 
     - name: Executar análise de segurança
       run: |
-        horusec start -p ./RotasCaminhao #--config-file horusec-config.json --output-format table
+        horusec start -p ./RotasCaminhao -e="true" #--config-file horusec-config.json --output-format table
